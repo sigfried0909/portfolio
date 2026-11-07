@@ -1,6 +1,5 @@
-Sigfried Breton
-
-IT Professional | Full-Stack Developer | IT Educator
+# Sigfried Breton
+### IT Professional | Full-Stack Developer | IT Educator
 
 Welcome to my personal portfolio repository!
 
@@ -8,95 +7,81 @@ This repository contains the source code for my personal portfolio website, wher
 
 I am an Information Technology professional with experience in full-stack web development, system development, database management, and IT education. I enjoy building practical digital solutions, exploring new technologies, and continuously improving my technical and professional skills.
 
-**About Me**
+## About Me
 
 I am an IT graduate with a background in software development and technical education. My experience includes developing web-based applications, designing database-driven systems, and working on projects that address real-world organizational needs.
 
 Currently, I work as an IT Professor at Saint Jude College – PHINMA Education while pursuing a Master of Information Technology.
 
-I believe in continuous learning, problem-solving, and using technology to develop solutions that are both functional and meaningful.
+## Areas of Expertise
 
-**Areas of Expertise**
+- Full-Stack Web Development
+- PHP Application Development
+- Database Design and Management
+- System Analysis and Development
+- Frontend Development
+- Backend Development
+- IT Education and Instruction
+- System Administration and Maintenance
+- Software Testing and Troubleshooting
 
-Full-Stack Web Development
+## Technical Skills
 
-PHP Application Development
-
-Database Design and Management
-
-System Analysis and Development
-
-Frontend Development
-
-Backend Development
-
-IT Education and Instruction
-
-System Administration and Maintenance
-
-Software Testing and Troubleshooting
-
-**Technical Skills**
-
-Programming and Web Development
-
-PHP
-
-Java
-
-HTML5
-
-CSS3
-
-JavaScript
+**Programming and Web Development**
+- PHP
+- Java
+- HTML5
+- CSS3
+- JavaScript
 
 **Database Management**
+- MySQL
+- MariaDB
 
-MySQL
-
-MariaDB
-
-Tools and Development Environments
-
-Visual Studio Code
-
-HeidiSQL
-
-Laragon
-
-XAMPP
-
-Git and GitHub
+**Tools and Development Environments**
+- Visual Studio Code
+- HeidiSQL
+- Laragon
+- XAMPP
+- Git and GitHub
 
 **Other Technical Knowledge**
+- System Administration
+- Computer Hardware and Software Troubleshooting
+- Quality Assurance and Testing
+- Database Management
+- Web Application Development
 
-System Administration
+## Professional Interests
 
-Computer Hardware and Software Troubleshooting
+I continuously explore and improve my knowledge in:
 
-Quality Assurance and Testing
+- Full-Stack Web Development
+- Software Engineering
+- Cybersecurity
+- Ethical Hacking and Penetration Testing
+- Database Management
+- Information Systems Development
+- Emerging Technologies
 
-Database Management
-
-Web Application Development
-
-**Contact and Professional Links**
+## Contact and Professional Links
 
 You can connect with me through my professional platforms:
 
-Portfolio: https://fredspace.netlify.app/
+- **Portfolio:** [Add your portfolio website URL]
+- **GitHub:** [Add your GitHub profile URL]
+- **LinkedIn:** [Add your LinkedIn profile URL]
+- **Email:** [Add your professional email address]
 
-GitHub: https://github.com/sigfried0909
+---
 
-LinkedIn: www.linkedin.com/in/sigfried-breton
+### Personal Philosophy
 
-Email: sigfried.breton1@gmail.com
+*"Technology is more than writing code. It is about understanding problems, creating meaningful solutions, and continuously learning to make things better."*
 
-**Personal Philosophy**
+---
 
-"Technology is more than writing code. It is about understanding problems, creating meaningful solutions, and continuously learning to make things better."
-
-Sigfried Breton
+**Sigfried Breton**  
 IT Professional | Full-Stack Developer | IT Educator
 
 © 2026 Sigfried Breton. All rights reserved.
