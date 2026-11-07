@@ -68,10 +68,10 @@ I continuously explore and improve my knowledge in:
 
 You can connect with me through my professional platforms:
 
-- **Portfolio:** [Add your portfolio website URL]
-- **GitHub:** [Add your GitHub profile URL]
-- **LinkedIn:** [Add your LinkedIn profile URL]
-- **Email:** [Add your professional email address]
+- **Portfolio:** https://fredspace.netlify.app/
+- **GitHub:** https://github.com/sigfried0909
+- **LinkedIn:** www.linkedin.com/in/sigfried-breton
+- **Email:** sigfried.breton1@gmail.com
 
 ---
 
