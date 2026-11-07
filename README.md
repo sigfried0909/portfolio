@@ -8,7 +8,7 @@ This repository contains the source code for my personal portfolio website, wher
 
 I am an Information Technology professional with experience in full-stack web development, system development, database management, and IT education. I enjoy building practical digital solutions, exploring new technologies, and continuously improving my technical and professional skills.
 
-About Me
+**About Me**
 
 I am an IT graduate with a background in software development and technical education. My experience includes developing web-based applications, designing database-driven systems, and working on projects that address real-world organizational needs.
 
@@ -16,7 +16,7 @@ Currently, I work as an IT Professor at Saint Jude College – PHINMA Education 
 
 I believe in continuous learning, problem-solving, and using technology to develop solutions that are both functional and meaningful.
 
-Areas of Expertise
+**Areas of Expertise**
 
 Full-Stack Web Development
 
@@ -36,7 +36,7 @@ System Administration and Maintenance
 
 Software Testing and Troubleshooting
 
-Technical Skills
+**Technical Skills**
 
 Programming and Web Development
 
@@ -50,7 +50,7 @@ CSS3
 
 JavaScript
 
-Database Management
+**Database Management**
 
 MySQL
 
@@ -68,7 +68,7 @@ XAMPP
 
 Git and GitHub
 
-Other Technical Knowledge
+**Other Technical Knowledge**
 
 System Administration
 
@@ -80,7 +80,7 @@ Database Management
 
 Web Application Development
 
-Contact and Professional Links
+**Contact and Professional Links**
 
 You can connect with me through my professional platforms:
 
@@ -92,7 +92,7 @@ LinkedIn: www.linkedin.com/in/sigfried-breton
 
 Email: sigfried.breton1@gmail.com
 
-Personal Philosophy
+**Personal Philosophy**
 
 "Technology is more than writing code. It is about understanding problems, creating meaningful solutions, and continuously learning to make things better."
 
