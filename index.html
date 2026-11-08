@@ -1,237 +1,1488 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sigfried Breton | Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-</head>
+    <title>Sigfried Breton | Backend Developer & IT Educator</title>
 
-<body class="is-boxed has-animations">
+    <meta
+      name="description"
+      content="The professional portfolio of Sigfried Breton — Backend and Web Developer, IT Educator, and technology professional specializing in PHP, Laravel, MySQL, and software solutions."
+    />
+
+    <meta
+      name="keywords"
+      content="Sigfried Breton, Backend Developer, Web Developer, PHP Developer, Laravel Developer, IT Instructor, MySQL, Philippines"
+    />
+
+    <meta name="author" content="Sigfried Breton" />
+    <meta name="theme-color" content="#0b1020" />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Sigfried Breton | Developer & IT Educator"
+    />
+    <meta
+      property="og:description"
+      content="Building practical digital solutions through code, systems, and technology."
+    />
+    <meta property="og:url" content="https://fredspace.netlify.app/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+
+  <body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
     <div class="body-wrap">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-                                <img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
+      <!-- =========================================
+             HEADER / NAVIGATION
+        ========================================== -->
+
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="#home" class="brand" aria-label="Sigfried Breton Home">
+            <span class="brand-mark">SB<span>.</span></span>
+            <span class="brand-name">Sigfried Breton</span>
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-controls="site-nav"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+            <a href="#home" class="is-active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+
+            <a href="#contact" class="nav-contact">
+              Let's Talk
+              <span aria-hidden="true">↗</span>
+            </a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main-content">
+        <!-- =========================================
+                 HERO SECTION
+            ========================================== -->
+
+        <section class="hero-section" id="home">
+          <div class="container hero-grid">
+            <div class="hero-copy" data-reveal>
+              <div class="eyebrow">
+                <span class="eyebrow-dot"></span>
+                BACKEND DEVELOPER & IT EDUCATOR
+              </div>
+
+              <h1>
+                Building practical
+                <span class="gradient-text">digital solutions.</span>
+              </h1>
+
+              <p class="hero-description">
+                Hi, I'm <strong>Sigfried Breton</strong> — a Backend and Web
+                Developer and Information Technology professional passionate
+                about developing meaningful software, designing database-driven
+                applications, and transforming ideas into functional digital
+                experiences.
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#projects" class="button button-primary">
+                  Explore My Work
+                  <span aria-hidden="true">↗</span>
+                </a>
+
+                <a href="#contact" class="button button-outline">
+                  Get In Touch
+                </a>
+              </div>
+
+              <div class="hero-social">
+                <span class="social-label">CONNECT WITH ME</span>
+
+                <a
+                  href="https://github.com/sigfried0909"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                  title="GitHub"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.14.68-3.8-1.34-3.8-1.34-.5-1.29-1.22-1.63-1.22-1.63-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.02 1.74 2.67 1.24 3.32.95.1-.73.4-1.23.72-1.51-2.51-.29-5.15-1.26-5.15-5.58 0-1.23.44-2.23 1.17-3.01-.12-.29-.51-1.44.11-2.99 0 0 .95-.3 3.1 1.15a10.8 10.8 0 0 1 5.65 0c2.15-1.45 3.1-1.15 3.1-1.15.62 1.55.23 2.7.11 2.99.73.78 1.17 1.78 1.17 3.01 0 4.33-2.65 5.28-5.17 5.57.41.36.77 1.04.77 2.1v3.06c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z"
+                    />
+                  </svg>
+                </a>
+
+                <a
+                  href="https://web.facebook.com/sigfried21"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  title="Facebook"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M13.5 21v-8h2.8l.42-3.27H13.5V7.64c0-.95.27-1.6 1.62-1.6h1.72V3.11A23.1 23.1 0 0 0 14.34 3c-2.48 0-4.18 1.51-4.18 4.28v2.45H7.35V13h2.8v8h3.35Z"
+                    />
+                  </svg>
+                </a>
+
+                <a
+                  href="mailto:sigfried.breton1@gmail.com"
+                  aria-label="Email"
+                  title="Email"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M3.75 5.25h16.5c.83 0 1.5.67 1.5 1.5v10.5c0 .83-.67 1.5-1.5 1.5H3.75c-.83 0-1.5-.67-1.5-1.5V6.75c0-.83.67-1.5 1.5-1.5Zm0 1.8 8.25 5.7 8.25-5.7"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
-        </header>
 
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-inner">
-                        <div class="hero-copy">
-                            <h1 class="hero-title mt-0">Hi! My name is Sigfried Breton</h1>
-                            <p class="hero-paragraph">A passionate IT professional with experience in web development,
-                                software solutions, and digital design. I help businesses turn ideas into functional,
-                                user-friendly digital products.</p>
-                            <div class="hero-cta"><a class="button button-primary" href="#">My Achievements</a><a
-                                    class="button" href="#">My Projects</a></div>
-                        </div>
-                        <div class="hero-figure anime-element">
-                            <svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
-                                <rect width="528" height="396" style="fill:transparent;" />
-                            </svg>
-                            <div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
-                            <div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
-                            <div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
-                            <div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
-                            <div class="hero-figure-box hero-figure-box-05"></div>
-                            <div class="hero-figure-box hero-figure-box-06"></div>
-                            <div class="hero-figure-box hero-figure-box-07"></div>
-                            <div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
-                            <div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
-                            <div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <!-- HERO PROFILE CARD -->
 
-            <section class="features section">
-                <div class="container">
-                    <div class="features-inner section-inner has-bottom-divider">
-                        <div class="features-wrap">
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img src="dist/images/feature-icon-01.svg" alt="Feature 01">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Test</h4>
-                                    <p class="text-sm mb-0">Text1.</p>
-                                </div>
-                            </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img src="dist/images/feature-icon-02.svg" alt="Feature 02">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Test</h4>
-                                    <p class="text-sm mb-0">Text2</p>
-                                </div>
-                            </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img src="dist/images/feature-icon-03.svg" alt="Feature 03">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Test</h4>
-                                    <p class="text-sm mb-0">Text3.</p>
-                                </div>
-                            </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img src="dist/images/feature-icon-04.svg" alt="Feature 04">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Test</h4>
-                                    <p class="text-sm mb-0">Text4.</p>
-                                </div>
-                            </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img src="dist/images/feature-icon-05.svg" alt="Feature 05">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Test</h4>
-                                    <p class="text-sm mb-0">Text5.</p>
-                                </div>
-                            </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img src="dist/images/feature-icon-06.svg" alt="Feature 06">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Test</h4>
-                                    <p class="text-sm mb-0">Text6.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div class="hero-visual" data-reveal>
+              <div class="hero-glow"></div>
 
-            <section class="pricing section">
-                <div class="container-sm">
-                    <div class="pricing-inner section-inner">
-                        <div class="pricing-header text-center">
-                            <h2 class="section-title mt-0">Unlimited for all</h2>
-                            <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.
-                            </p>
-                        </div>
-                        <div class="pricing-tables-wrap">
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner is-revealing">
-                                    <div class="pricing-table-main">
-                                        <div class="pricing-table-header pb-24">
-                                            <div class="pricing-table-price"><span
-                                                    class="pricing-table-price-currency h2">$</span><span
-                                                    class="pricing-table-price-amount h1">49</span><span
-                                                    class="text-xs">/month</span></div>
-                                        </div>
-                                        <div class="pricing-table-features-title text-xs pt-24 pb-24">What you will get
-                                        </div>
-                                        <ul class="pricing-table-features list-reset text-xs">
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#">Pre order
-                                            now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+              <div class="profile-card">
+                <div class="profile-card-top">
+                  <div class="window-controls">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
 
-            <section class="cta section">
-                <div class="container">
-                    <div class="cta-inner section-inner">
-                        <h3 class="section-title mt-0">Still not convinced on buying?</h3>
-                        <div class="cta-cta">
-                            <a class="button button-primary button-wide-mobile" href="#">Get in touch</a>
-                        </div>
-                    </div>
+                  <span class="profile-card-label">DEVELOPER PROFILE</span>
                 </div>
-            </section>
-        </main>
 
-        <footer class="site-footer">
-            <div class="container">
-                <div class="site-footer-inner">
-                    <div class="brand footer-brand">
-                        <a href="#">
-                            <img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
-                        </a>
+                <div class="profile-card-content">
+                  <div class="profile-image-wrap">
+                    <img
+                      src="https://avatars.githubusercontent.com/u/79145080?v=4"
+                      alt="Sigfried Breton"
+                      class="profile-image"
+                      loading="eager"
+                    />
+
+                    <span class="profile-image-ring"></span>
+                  </div>
+
+                  <h2>Sigfried Breton</h2>
+
+                  <p class="profile-role">Backend Developer & IT Educator</p>
+
+                  <div class="profile-divider"></div>
+
+                  <div class="profile-info">
+                    <div>
+                      <span class="info-label">EDUCATION</span>
+                      <strong>BS Information Technology</strong>
                     </div>
-                    <ul class="footer-links list-reset">
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">About us</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ's</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-social-links list-reset">
-                        <li>
-                            <a href="https://web.facebook.com/sigfried21">
-                                <span class="screen-reader-text">Facebook</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z"
-                                        fill="#0270D7" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sigfried.breton1@gmail.com">
-                                <span class="screen-reader-text">Google</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z"
-                                        fill="#0270D7" />
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer-copyright">&copy; 2025 all rights reserved</div>
+
+                    <div>
+                      <span class="info-label">SPECIALIZATION</span>
+                      <strong>Backend & Web Development</strong>
+                    </div>
+
+                    <div>
+                      <span class="info-label">LOCATION</span>
+                      <strong>Philippines</strong>
+                    </div>
+                  </div>
+
+                  <div class="profile-tech">
+                    <span>PHP</span>
+                    <span>Laravel</span>
+                    <span>MySQL</span>
+                    <span>JavaScript</span>
+                  </div>
                 </div>
+
+                <div class="profile-card-bottom">
+                  <span>PORTFOLIO / 2026</span>
+                  <span class="profile-card-status"> <i></i> DEVELOPER </span>
+                </div>
+              </div>
+
+              <div class="floating-tag floating-tag-one">
+                <span class="floating-icon">&lt;/&gt;</span>
+                Backend Development
+              </div>
+
+              <div class="floating-tag floating-tag-two">
+                <span class="floating-icon">✦</span>
+                Problem Solver
+              </div>
             </div>
-        </footer>
+          </div>
+
+          <!-- HERO HIGHLIGHTS -->
+
+          <div class="container hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-number">01</span>
+              <div>
+                <strong>1st Place</strong>
+                <p>DOST Educational Category</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <span class="highlight-number">02</span>
+              <div>
+                <strong>BSIT Graduate</strong>
+                <p>STI College Sta. Mesa</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <span class="highlight-number">03</span>
+              <div>
+                <strong>MIT Student</strong>
+                <p>Continuing Graduate Studies</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <span class="highlight-number">04</span>
+              <div>
+                <strong>IT Professional</strong>
+                <p>Development & Education</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================
+                 ABOUT SECTION
+            ========================================== -->
+
+        <section class="section about-section" id="about">
+          <div class="container">
+            <div class="section-heading" data-reveal>
+              <span class="section-kicker">01 / ABOUT ME</span>
+
+              <h2>
+                Technology is most valuable when it
+                <span class="gradient-text">solves real problems.</span>
+              </h2>
+            </div>
+
+            <div class="about-grid">
+              <div class="about-main" data-reveal>
+                <p class="about-intro">
+                  I'm an Information Technology professional with a background
+                  in backend development, web applications, technical support,
+                  and IT education.
+                </p>
+
+                <p>
+                  I graduated with a Bachelor of Science in Information
+                  Technology from STI College Sta. Mesa and am currently
+                  pursuing a Master of Information Technology at Pamantasan ng
+                  Lungsod ng Maynila.
+                </p>
+
+                <p>
+                  My experience includes developing database-driven
+                  applications, implementing backend functionalities, designing
+                  system workflows, troubleshooting technical issues, and
+                  helping students understand practical applications of
+                  technology.
+                </p>
+
+                <p>
+                  I believe in building solutions that are not only functional
+                  but also maintainable, secure, and useful to the people who
+                  depend on them.
+                </p>
+
+                <div class="about-signature">
+                  <span class="signature-line"></span>
+                  <span>Always learning. Always building.</span>
+                </div>
+              </div>
+
+              <div class="about-side" data-reveal>
+                <div class="about-card">
+                  <div class="about-card-icon">01</div>
+
+                  <h3>Development Mindset</h3>
+
+                  <p>
+                    Focused on backend logic, database management, practical
+                    functionality, and efficient system architecture.
+                  </p>
+                </div>
+
+                <div class="about-card">
+                  <div class="about-card-icon">02</div>
+
+                  <h3>Continuous Learning</h3>
+
+                  <p>
+                    Continuously improving my knowledge through graduate
+                    studies, certifications, development, and hands-on
+                    experience.
+                  </p>
+                </div>
+
+                <div class="about-card">
+                  <div class="about-card-icon">03</div>
+
+                  <h3>Knowledge Sharing</h3>
+
+                  <p>
+                    Applying my IT experience in education, student guidance,
+                    and technology-based learning.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================
+                 EXPERTISE SECTION
+            ========================================== -->
+
+        <section class="section expertise-section">
+          <div class="container">
+            <div class="section-heading centered" data-reveal>
+              <span class="section-kicker">02 / WHAT I DO</span>
+
+              <h2>My Areas of <span class="gradient-text">Expertise</span></h2>
+
+              <p>
+                Combining technical knowledge, practical development, and
+                professional experience to create useful solutions.
+              </p>
+            </div>
+
+            <div class="expertise-grid">
+              <article class="expertise-card" data-reveal>
+                <div class="expertise-icon">
+                  <span>&lt;/&gt;</span>
+                </div>
+
+                <span class="expertise-number">01</span>
+
+                <h3>Backend Development</h3>
+
+                <p>
+                  Developing application logic, server-side functionalities,
+                  authentication, validation, and structured workflows.
+                </p>
+
+                <div class="expertise-tags">
+                  <span>PHP</span>
+                  <span>Laravel</span>
+                  <span>Python</span>
+                </div>
+              </article>
+
+              <article class="expertise-card" data-reveal>
+                <div class="expertise-icon">
+                  <span>▤</span>
+                </div>
+
+                <span class="expertise-number">02</span>
+
+                <h3>Database Development</h3>
+
+                <p>
+                  Creating structured databases, implementing CRUD operations,
+                  managing relational data, and maintaining data integrity.
+                </p>
+
+                <div class="expertise-tags">
+                  <span>MySQL</span>
+                  <span>Database Design</span>
+                  <span>SQL</span>
+                </div>
+              </article>
+
+              <article class="expertise-card" data-reveal>
+                <div class="expertise-icon">
+                  <span>⌘</span>
+                </div>
+
+                <span class="expertise-number">03</span>
+
+                <h3>IT Support & Troubleshooting</h3>
+
+                <p>
+                  Diagnosing hardware and software problems, system maintenance,
+                  technical troubleshooting, and user assistance.
+                </p>
+
+                <div class="expertise-tags">
+                  <span>IT Support</span>
+                  <span>Maintenance</span>
+                  <span>Technical Support</span>
+                </div>
+              </article>
+
+              <article class="expertise-card" data-reveal>
+                <div class="expertise-icon">
+                  <span>✎</span>
+                </div>
+
+                <span class="expertise-number">04</span>
+
+                <h3>IT Education & Mentoring</h3>
+
+                <p>
+                  Teaching information technology concepts, guiding student
+                  projects, and connecting theoretical knowledge with
+                  application.
+                </p>
+
+                <div class="expertise-tags">
+                  <span>IT Instruction</span>
+                  <span>Capstone</span>
+                  <span>Technical Guidance</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================
+                 TECHNICAL SKILLS
+            ========================================== -->
+
+        <section class="section skills-section" id="skills">
+          <div class="container">
+            <div class="section-heading" data-reveal>
+              <span class="section-kicker">03 / TECHNICAL SKILLS</span>
+
+              <h2>
+                Tools and technologies
+                <span class="gradient-text">I work with.</span>
+              </h2>
+
+              <p>
+                A combination of programming, database development, web
+                technologies, and practical IT skills.
+              </p>
+            </div>
+
+            <div class="skills-layout">
+              <div class="skills-intro" data-reveal>
+                <div class="skills-code-card">
+                  <div class="code-card-header">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <p>developer-stack.php</p>
+                  </div>
+
+                  <div class="code-card-body">
+                    <div>
+                      <span class="code-muted">&lt;?php</span>
+                    </div>
+
+                    <div class="code-indent">
+                      <span class="code-purple">$developer</span>
+                      <span class="code-white"> = [</span>
+                    </div>
+
+                    <div class="code-indent-two">
+                      <span class="code-green">'focus'</span>
+                      <span class="code-white"> =&gt; </span>
+                      <span class="code-yellow">'Backend Development'</span>
+                      <span>,</span>
+                    </div>
+
+                    <div class="code-indent-two">
+                      <span class="code-green">'database'</span>
+                      <span class="code-white"> =&gt; </span>
+                      <span class="code-yellow">'MySQL'</span>
+                      <span>,</span>
+                    </div>
+
+                    <div class="code-indent-two">
+                      <span class="code-green">'framework'</span>
+                      <span class="code-white"> =&gt; </span>
+                      <span class="code-yellow">'Laravel'</span>
+                      <span>,</span>
+                    </div>
+
+                    <div class="code-indent-two">
+                      <span class="code-green">'mindset'</span>
+                      <span class="code-white"> =&gt; </span>
+                      <span class="code-yellow">'Continuous Learning'</span>
+                    </div>
+
+                    <div class="code-indent">
+                      <span class="code-white">];</span>
+                    </div>
+
+                    <div class="code-muted code-closing">?&gt;</div>
+                  </div>
+                </div>
+
+                <p class="skills-note">
+                  My focus is on understanding how technologies work together to
+                  build dependable software solutions.
+                </p>
+              </div>
+
+              <div class="skills-groups">
+                <div class="skill-group" data-reveal>
+                  <div class="skill-group-heading">
+                    <span class="skill-group-icon">&lt;/&gt;</span>
+                    <h3>Programming & Development</h3>
+                  </div>
+
+                  <div class="skill-list">
+                    <span>PHP</span>
+                    <span>Laravel</span>
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                  </div>
+                </div>
+
+                <div class="skill-group" data-reveal>
+                  <div class="skill-group-heading">
+                    <span class="skill-group-icon">▤</span>
+                    <h3>Database Technologies</h3>
+                  </div>
+
+                  <div class="skill-list">
+                    <span>MySQL</span>
+                    <span>Database Design</span>
+                    <span>SQL</span>
+                    <span>CRUD Operations</span>
+                    <span>Data Management</span>
+                  </div>
+                </div>
+
+                <div class="skill-group" data-reveal>
+                  <div class="skill-group-heading">
+                    <span class="skill-group-icon">⌘</span>
+                    <h3>Web Development Tools</h3>
+                  </div>
+
+                  <div class="skill-list">
+                    <span>Bootstrap</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                    <span>Laragon</span>
+                  </div>
+                </div>
+
+                <div class="skill-group" data-reveal>
+                  <div class="skill-group-heading">
+                    <span class="skill-group-icon">⚙</span>
+                    <h3>IT & Systems</h3>
+                  </div>
+
+                  <div class="skill-list">
+                    <span>Hardware Troubleshooting</span>
+                    <span>Software Troubleshooting</span>
+                    <span>System Maintenance</span>
+                    <span>Technical Support</span>
+                    <span>System Testing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================
+                 PROJECTS SECTION
+            ========================================== -->
+
+        <section class="section projects-section" id="projects">
+          <div class="container">
+            <div class="projects-heading" data-reveal>
+              <div class="section-heading">
+                <span class="section-kicker">04 / SELECTED WORK</span>
+
+                <h2>
+                  Projects I've
+                  <span class="gradient-text">worked on.</span>
+                </h2>
+
+                <p>
+                  A selection of software development projects, institutional
+                  applications, and practical solutions.
+                </p>
+              </div>
+
+              <a
+                href="https://github.com/sigfried0909"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-link"
+              >
+                Explore GitHub
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <div class="projects-grid">
+              <!-- PROJECT 01: ACADTRACK -->
+
+              <article class="project-card project-featured" data-reveal>
+                <div class="project-visual art-acadtrack">
+                  <div class="visual-header">
+                    <span class="visual-brand">ACADTRACK</span>
+                    <span class="visual-status">SYSTEM PROJECT</span>
+                  </div>
+
+                  <div class="mock-dashboard">
+                    <div class="mock-sidebar">
+                      <div class="mock-side-logo"></div>
+                      <span class="mock-side-active"></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+
+                    <div class="mock-main">
+                      <div class="mock-title-line"></div>
+
+                      <div class="mock-stat-grid">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                      </div>
+
+                      <div class="mock-content-panel">
+                        <div class="mock-content-title"></div>
+
+                        <div class="mock-data-row"></div>
+                        <div class="mock-data-row"></div>
+                        <div class="mock-data-row"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span class="visual-corner-label">01 / ACADEMIC SYSTEM</span>
+                </div>
+
+                <div class="project-content">
+                  <div class="project-overline">
+                    INSTITUTIONAL APPLICATION
+                    <span class="private-tag">PRIVATE PROJECT</span>
+                  </div>
+
+                  <h3>AcadTrack</h3>
+
+                  <p>
+                    A Student Permit Monitoring and Academic Tracking System
+                    developed for an academic environment. It brings student
+                    academic information and permit-related processes into one
+                    organized digital platform.
+                  </p>
+
+                  <div class="project-tech">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>JavaScript</span>
+                    <span>HTML / CSS</span>
+                  </div>
+
+                  <div class="project-footer">
+                    <span class="project-private-note">
+                      Institution-focused project
+                    </span>
+
+                    <span class="project-number">01</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- PROJECT 02: BARANGAY TATALON MIS -->
+
+              <article class="project-card" data-reveal>
+                <div class="project-visual art-barangay">
+                  <div class="visual-header">
+                    <span class="visual-brand">BARANGAY MIS</span>
+                    <span class="visual-status">WEB APPLICATION</span>
+                  </div>
+
+                  <div class="barangay-preview">
+                    <div class="barangay-sidebar">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+
+                    <div class="barangay-content">
+                      <div class="barangay-banner"></div>
+
+                      <div class="barangay-cards">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+
+                      <div class="barangay-table">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span class="visual-corner-label"
+                    >02 / MANAGEMENT INFORMATION</span
+                  >
+                </div>
+
+                <div class="project-content">
+                  <div class="project-overline">CAPSTONE PROJECT</div>
+
+                  <h3>Barangay Tatalon MIS</h3>
+
+                  <p>
+                    A Web-Based Management Information System developed with
+                    Laravel and MySQL to help digitize barangay records and
+                    administrative processes.
+                  </p>
+
+                  <ul class="project-points">
+                    <li>Backend development and database integration</li>
+                    <li>Resident, certificate, and permit management</li>
+                    <li>Role-based access and approval workflows</li>
+                    <li>OTP email verification and record validation</li>
+                  </ul>
+
+                  <div class="project-tech">
+                    <span>Laravel</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                  </div>
+
+                  <div class="project-footer">
+                    <span class="project-private-note"
+                      >Backend Development</span
+                    >
+                    <span class="project-number">02</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- PROJECT 03: ZIONTECH KIOSK -->
+
+              <article class="project-card" data-reveal>
+                <div class="project-visual art-kiosk">
+                  <div class="visual-header">
+                    <span class="visual-brand">Z-KIOSK PRO</span>
+                    <span class="visual-status">LIVE PROJECT</span>
+                  </div>
+
+                  <div class="kiosk-preview">
+                    <div class="kiosk-panel">
+                      <div class="kiosk-panel-heading">QUEUE MONITOR</div>
+
+                      <div class="kiosk-queue-row">
+                        <span>GC</span>
+                        <strong>001</strong>
+                        <i></i>
+                      </div>
+
+                      <div class="kiosk-queue-row">
+                        <span>LS</span>
+                        <strong>002</strong>
+                        <i></i>
+                      </div>
+
+                      <div class="kiosk-queue-row">
+                        <span>MR</span>
+                        <strong>003</strong>
+                        <i></i>
+                      </div>
+                    </div>
+
+                    <div class="kiosk-side-card">
+                      <span>NEXT QUEUE</span>
+                      <strong>004</strong>
+                      <small>NOW SERVING</small>
+                    </div>
+                  </div>
+
+                  <span class="visual-corner-label"
+                    >03 / QUEUING MANAGEMENT</span
+                  >
+                </div>
+
+                <div class="project-content">
+                  <div class="project-overline">
+                    CLIENT PROJECT
+                    <span class="live-tag">LICENSED & PUBLISHED</span>
+                  </div>
+
+                  <h3>ZionTech Clinic Queuing System</h3>
+
+                  <p>
+                    A client-deployed queuing management system developed to
+                    organize patient flow across clinic departments with a
+                    priority-based queueing process.
+                  </p>
+
+                  <ul class="project-points">
+                    <li>Multi-department queue management</li>
+                    <li>Priority-based queue handling</li>
+                    <li>Queue numbering and status monitoring</li>
+                    <li>Admin management and database integration</li>
+                  </ul>
+
+                  <div class="project-tech">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                  </div>
+
+                  <div class="project-footer">
+                    <a
+                      href="https://github.com/sigfried0909/Kiosk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-link"
+                    >
+                      GitHub Repository ↗
+                    </a>
+
+                    <a
+                      href="https://z-kioskpro.com/display"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-link"
+                    >
+                      Live Display ↗
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              <!-- PROJECT 04: SCINFUSE -->
+
+              <article class="project-card" data-reveal>
+                <div class="project-visual art-scinfuse">
+                  <div class="visual-header">
+                    <span class="visual-brand">SCINFUSE</span>
+                    <span class="visual-status">EDUCATIONAL WEBSITE</span>
+                  </div>
+
+                  <div class="science-preview">
+                    <div class="science-main">
+                      <span class="science-orbit science-orbit-one"></span>
+                      <span class="science-orbit science-orbit-two"></span>
+                      <span class="science-center">SCI</span>
+                      <span class="science-label">EXPLORE SCIENCE</span>
+                    </div>
+
+                    <div class="science-modules">
+                      <span>PHYSICS</span>
+                      <span>SCIENCE</span>
+                      <span>MODULES</span>
+                    </div>
+                  </div>
+
+                  <span class="visual-corner-label"
+                    >04 / EDUCATIONAL TECHNOLOGY</span
+                  >
+                </div>
+
+                <div class="project-content">
+                  <div class="project-overline">
+                    DOST WEBSITE DEVELOPMENT COMPETITION
+                    <span class="award-tag">1ST PLACE</span>
+                  </div>
+
+                  <h3>SCinFuse</h3>
+
+                  <p>
+                    An educational science website created to make learning
+                    materials and interactive science content more accessible to
+                    students.
+                  </p>
+
+                  <ul class="project-points">
+                    <li>Developed backend functionalities</li>
+                    <li>Managed database structure and integration</li>
+                    <li>Contributed to frontend implementation</li>
+                    <li>Collaborated on development, testing, and debugging</li>
+                  </ul>
+
+                  <div class="project-tech">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                  </div>
+
+                  <div class="project-footer">
+                    <a
+                      href="https://github.com/sigfried0909/SCinFuse"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-link"
+                    >
+                      GitHub Repository ↗
+                    </a>
+
+                    <span class="project-number">04</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="projects-bottom" data-reveal>
+              <p>Want to see more of my development work?</p>
+
+              <a
+                href="https://github.com/sigfried0909"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button button-outline"
+              >
+                View All GitHub Projects ↗
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================
+                 EXPERIENCE SECTION
+            ========================================== -->
+
+        <section class="section experience-section" id="experience">
+          <div class="container">
+            <div class="section-heading" data-reveal>
+              <span class="section-kicker">05 / PROFESSIONAL JOURNEY</span>
+
+              <h2>
+                Experience that
+                <span class="gradient-text">shapes my work.</span>
+              </h2>
+
+              <p>
+                My professional journey across software development, technical
+                support, and information technology education.
+              </p>
+            </div>
+
+            <div class="timeline">
+              <!-- CURRENT POSITION -->
+
+              <article class="timeline-item" data-reveal>
+                <div class="timeline-marker">
+                  <span></span>
+                </div>
+
+                <div class="timeline-content">
+                  <div class="timeline-top">
+                    <div>
+                      <span class="timeline-type">CURRENT POSITION</span>
+                      <h3>IT Professor</h3>
+                      <h4>Saint Jude College – PHINMA Education</h4>
+                    </div>
+
+                    <span class="timeline-date">2026 – Present</span>
+                  </div>
+
+                  <p>
+                    Working in higher education, bringing practical information
+                    technology knowledge and professional experience into the
+                    academic environment.
+                  </p>
+
+                  <div class="timeline-tags">
+                    <span>IT Education</span>
+                    <span>Instruction</span>
+                    <span>Technology</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- FREELANCE -->
+
+              <article class="timeline-item" data-reveal>
+                <div class="timeline-marker">
+                  <span></span>
+                </div>
+
+                <div class="timeline-content">
+                  <div class="timeline-top">
+                    <div>
+                      <span class="timeline-type">PROFESSIONAL EXPERIENCE</span>
+                      <h3>Backend Developer (Freelance)</h3>
+                      <h4>ZeroDay Software Solutions</h4>
+                    </div>
+
+                    <span class="timeline-date">Freelance</span>
+                  </div>
+
+                  <p>
+                    Backend development experience focused on implementing
+                    application functionality and supporting software solutions.
+                  </p>
+
+                  <div class="timeline-tags">
+                    <span>Backend Development</span>
+                    <span>Web Applications</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- STI COLLEGE -->
+
+              <article class="timeline-item" data-reveal>
+                <div class="timeline-marker">
+                  <span></span>
+                </div>
+
+                <div class="timeline-content">
+                  <div class="timeline-top">
+                    <div>
+                      <span class="timeline-type">EDUCATION & LEADERSHIP</span>
+                      <h3>IT College Instructor & Capstone Coordinator</h3>
+                      <h4>STI College Sta. Mesa</h4>
+                    </div>
+
+                    <span class="timeline-date">2025 – 2026</span>
+                  </div>
+
+                  <p>
+                    Combined IT instruction with capstone coordination,
+                    supporting students in their academic and
+                    project-development activities.
+                  </p>
+
+                  <div class="timeline-tags">
+                    <span>IT Instruction</span>
+                    <span>Capstone Coordination</span>
+                    <span>Student Guidance</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- FOUNDEVER -->
+
+              <article class="timeline-item" data-reveal>
+                <div class="timeline-marker">
+                  <span></span>
+                </div>
+
+                <div class="timeline-content">
+                  <div class="timeline-top">
+                    <div>
+                      <span class="timeline-type"
+                        >CUSTOMER & TECHNICAL SUPPORT</span
+                      >
+                      <h3>Technical Support Representative</h3>
+                      <h4>Foundever Philippines</h4>
+                    </div>
+
+                    <span class="timeline-date">2025</span>
+                  </div>
+
+                  <p>
+                    Gained professional experience in technical support,
+                    customer assistance, and addressing technology-related
+                    concerns.
+                  </p>
+
+                  <div class="timeline-tags">
+                    <span>Technical Support</span>
+                    <span>Troubleshooting</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- PNP -->
+
+              <article class="timeline-item" data-reveal>
+                <div class="timeline-marker">
+                  <span></span>
+                </div>
+
+                <div class="timeline-content">
+                  <div class="timeline-top">
+                    <div>
+                      <span class="timeline-type">INTERNSHIP</span>
+                      <h3>Technical Support Intern</h3>
+                      <h4>Philippine National Police – Camp Crame</h4>
+                    </div>
+
+                    <span class="timeline-date">2025</span>
+                  </div>
+
+                  <p>
+                    Obtained hands-on IT support exposure involving hardware and
+                    software troubleshooting, system maintenance, and technical
+                    assistance.
+                  </p>
+
+                  <div class="timeline-tags">
+                    <span>IT Support</span>
+                    <span>Hardware</span>
+                    <span>System Maintenance</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================
+                 EDUCATION SECTION
+            ========================================== -->
+
+        <section class="section education-section" id="education">
+          <div class="container">
+            <div class="section-heading centered" data-reveal>
+              <span class="section-kicker">06 / EDUCATION & CREDENTIALS</span>
+
+              <h2>
+                Learning is a
+                <span class="gradient-text">continuous process.</span>
+              </h2>
+
+              <p>
+                My academic background and professional development through
+                education, training, and certification.
+              </p>
+            </div>
+
+            <div class="education-grid">
+              <div class="education-column" data-reveal>
+                <h3 class="education-heading">
+                  <span>01</span>
+                  Education
+                </h3>
+
+                <div class="education-card">
+                  <span class="education-status">IN PROGRESS</span>
+
+                  <h4>Master of Information Technology</h4>
+
+                  <p class="education-school">
+                    Pamantasan ng Lungsod ng Maynila
+                  </p>
+
+                  <p class="education-detail">
+                    Graduate studies · 12 units ongoing
+                  </p>
+                </div>
+
+                <div class="education-card">
+                  <span class="education-status completed">COMPLETED</span>
+
+                  <h4>Bachelor of Science in Information Technology</h4>
+
+                  <p class="education-school">STI College Sta. Mesa</p>
+
+                  <p class="education-detail">2021 – 2025</p>
+                </div>
+
+                <div class="education-card">
+                  <span class="education-status completed">COMPLETED</span>
+
+                  <h4>Secondary Education</h4>
+
+                  <p class="education-school">Pasay City East High School</p>
+
+                  <p class="education-detail">Pasay City</p>
+                </div>
+              </div>
+
+              <div class="certifications-column" data-reveal>
+                <h3 class="education-heading">
+                  <span>02</span>
+                  Certifications & Training
+                </h3>
+
+                <div class="certification-item">
+                  <div class="cert-icon">✓</div>
+
+                  <div>
+                    <h4>CompTIA Tech+ Certified</h4>
+                    <p>CompTIA Certification · 2025</p>
+                  </div>
+
+                  <span class="cert-year">2025</span>
+                </div>
+
+                <div class="certification-item">
+                  <div class="cert-icon">✓</div>
+
+                  <div>
+                    <h4>Cybersecurity for Everyone</h4>
+                    <p>
+                      Department of Information and Communications Technology
+                    </p>
+                  </div>
+
+                  <span class="cert-year">2025</span>
+                </div>
+
+                <div class="certification-item">
+                  <div class="cert-icon">✓</div>
+
+                  <div>
+                    <h4>Certificate of Completion</h4>
+                    <p>Philippine National Police – Camp Crame</p>
+                  </div>
+
+                  <span class="cert-year">2025</span>
+                </div>
+
+                <div class="certification-item">
+                  <div class="cert-icon">✓</div>
+
+                  <div>
+                    <h4>System Administration and Maintenance</h4>
+                    <p>STI College Sta. Mesa</p>
+                  </div>
+
+                  <span class="cert-year">2021</span>
+                </div>
+
+                <div class="certification-item">
+                  <div class="cert-icon">✓</div>
+
+                  <div>
+                    <h4>Java Foundations</h4>
+                    <p>STI College Sta. Mesa</p>
+                  </div>
+
+                  <span class="cert-year">2021</span>
+                </div>
+
+                <div class="certification-item">
+                  <div class="cert-icon">✦</div>
+
+                  <div>
+                    <h4>CodeFest</h4>
+                    <p>STI College Sta. Mesa</p>
+                  </div>
+
+                  <span class="cert-year">2024</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- ACHIEVEMENT -->
+
+            <div class="achievement-card" data-reveal>
+              <div class="achievement-icon">
+                <span>★</span>
+              </div>
+
+              <div class="achievement-content">
+                <span class="section-kicker">FEATURED ACHIEVEMENT</span>
+
+                <h3>1st Place – Educational Category</h3>
+
+                <p>DOST Website Development Competition</p>
+
+                <span class="achievement-project">
+                  Project: SCinFuse Educational Science Website
+                </span>
+              </div>
+
+              <div class="achievement-number">01</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================
+                 CONTACT SECTION
+            ========================================== -->
+
+        <section class="section contact-section" id="contact">
+          <div class="container">
+            <div class="contact-card" data-reveal>
+              <div class="contact-decoration contact-decoration-one"></div>
+              <div class="contact-decoration contact-decoration-two"></div>
+
+              <div class="contact-content">
+                <span class="section-kicker">07 / GET IN TOUCH</span>
+
+                <h2>
+                  Have an idea?
+                  <span class="gradient-text">Let's build something.</span>
+                </h2>
+
+                <p>
+                  Whether it's a development opportunity, a software project,
+                  professional collaboration, or simply a conversation about
+                  technology, I'd be glad to connect.
+                </p>
+
+                <a
+                  href="mailto:sigfried.breton1@gmail.com"
+                  class="button button-primary contact-button"
+                >
+                  Send Me an Email
+                  <span aria-hidden="true">↗</span>
+                </a>
+
+                <div class="contact-email">
+                  <span>EMAIL ADDRESS</span>
+                  <a href="mailto:sigfried.breton1@gmail.com">
+                    sigfried.breton1@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-side">
+                <div class="contact-side-label">LET'S CONNECT</div>
+
+                <a
+                  href="https://github.com/sigfried0909"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-social-link"
+                >
+                  <span class="contact-social-icon">GH</span>
+
+                  <span>
+                    <strong>GitHub</strong>
+                    <small>Explore my repositories</small>
+                  </span>
+
+                  <span class="contact-arrow">↗</span>
+                </a>
+
+                <a
+                  href="https://web.facebook.com/sigfried21"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-social-link"
+                >
+                  <span class="contact-social-icon">FB</span>
+
+                  <span>
+                    <strong>Facebook</strong>
+                    <small>Connect with me</small>
+                  </span>
+
+                  <span class="contact-arrow">↗</span>
+                </a>
+
+                <a
+                  href="mailto:sigfried.breton1@gmail.com"
+                  class="contact-social-link"
+                >
+                  <span class="contact-social-icon">@</span>
+
+                  <span>
+                    <strong>Email</strong>
+                    <small>Send an inquiry</small>
+                  </span>
+
+                  <span class="contact-arrow">↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- =========================================
+             FOOTER
+        ========================================== -->
+
+      <footer class="site-footer">
+        <div class="container footer-main">
+          <div class="footer-brand">
+            <a href="#home" class="brand">
+              <span class="brand-mark">SB<span>.</span></span>
+              <span class="brand-name">Sigfried Breton</span>
+            </a>
+
+            <p>
+              Building, learning, and creating meaningful digital solutions.
+            </p>
+          </div>
+
+          <div class="footer-navigation">
+            <span class="footer-title">NAVIGATION</span>
+
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+          </div>
+
+          <div class="footer-navigation">
+            <span class="footer-title">SOCIAL LINKS</span>
+
+            <a
+              href="https://github.com/sigfried0909"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+
+            <a
+              href="https://web.facebook.com/sigfried21"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook ↗
+            </a>
+
+            <a href="mailto:sigfried.breton1@gmail.com"> Email ↗ </a>
+          </div>
+        </div>
+
+        <div class="container footer-bottom">
+          <p>
+            © <span id="current-year">2026</span> Sigfried Breton. All rights
+            reserved.
+          </p>
+
+          <a href="#home" class="back-to-top"> Back to top ↑ </a>
+        </div>
+      </footer>
     </div>
 
     <script src="dist/js/main.min.js"></script>
-</body>
-
+  </body>
 </html>
